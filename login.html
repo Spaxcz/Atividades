@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <meta charset="UTF-8">
+        <title>Login Page</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://kit.fontawesome.com/48ce881eaa.js" crossorigin="anonymous"></script>
+        <script src="scripts.js" defer></script>
+
+    </head>
+
+    <body>
+
+        <div class="login-page">
+            <div class="login-container">
+                <div class="left-container">
+                    <div class="form-container">
+
+                        <h1>Sign In To Developer</h1>
+                        <button class="email-image" type="submit">
+                            <i class="fa-solid fa-envelope"></i>
+                        </button>
+                        <button class="cloud-image" type="submit">
+                            <i class="fa-solid fa-cloud"></i>
+                        </button>
+                        
+                        <form onsubmit="login()">
+                            <h5>Or use your email account</h5>
+                            <div class="form-group">
+                                <input type="text" id="email" name="email" placeholder="Email" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="password" id="password" name="password" placeholder="Password" required>
+                            </div>
+                            <button class="forgot-password" type="button">Forgot your password?</button>
+                            <button class="submit-button" type="submit">Login</button>
+                            
+                        </form>
+
+                    </div>
+                </div>
+
+                <div class="right-container">
+                    <h1>Welcome User!</h1>
+                    <p>If you are new here, start our journey together by clicking here!</p>
+                    <button>Sign Up</button>
+                </div>
+            </div>
+        </div>
+
+    </body>
+
+</html>
